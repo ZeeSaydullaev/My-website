@@ -39,14 +39,19 @@ body {
     flex-wrap: wrap;
     width: 65%;
     margin: auto;
-
   }
   
   .flex-item {
       flex-wrap: wrap;
       width: 33%;
       padding-bottom: 1%;
+    
   }
+
+  .zoom:hover {
+    transform: scale(1.1); 
+  }
+
 
   .footer {
     text-align: center;
