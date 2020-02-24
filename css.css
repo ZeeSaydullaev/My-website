@@ -46,11 +46,17 @@ body {
       flex-wrap: wrap;
       width: 33%;
       padding-bottom: 1%;
+      opacity: 80%;
     
   }
 
-  .zoom:hover {
-    transform: scale(1.1); 
+  .zoom:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+  }
+
+  .zoom:hover .hideMe{
+     opacity: 0;
   }
 
 
