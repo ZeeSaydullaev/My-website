@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,37 @@
 
     <title>Mike Harrison</title>
 </head>
+
 <body>
 
-<h1>Mike Harrison Appreciation Page</h1>
+    <h1>Mike Harrison Appreciation Page</h1>
 
-<div class="flex-container">
-    <div class="flex-item zoom"><img src="Homework/1.png"><p class="hideMe">Wet Mike</p></div>
-    <div class="flex-item zoom"><img src="Homework/2.png"><p class="hideMe">Boat Mike</p></div>
-    <div class="flex-item zoom"><img src="Homework/3.png"><p class="hideMe">Jungle Mike</p></div>
-    <div class="flex-item zoom"><img src="Homework/4.png"><p class="hideMe">Dog Mike</p></div>
-    <div class="flex-item zoom"><img src="Homework/5.png"><p class="hideMe">Moto Mike</p></div>
-    <div class="flex-item zoom"><img src="Homework/6.png"><p class="hideMe">Tourist Mike</p></div>
-</div>
-<footer class="footer"><a href="https://www.instagram.com/mikeyharrison_/">More <div class="mike">MIKE</div> here</a></footer>
+    <div class="flex-container">
+        <div class="flex-item zoom"><img src="Homework/1.png">
+            <p class="hideMe">Wet Mike</p>
+        </div>
+        <div class="flex-item zoom"><img src="Homework/2.png">
+            <p class="hideMe">Boat Mike</p>
+        </div>
+        <div class="flex-item zoom"><img src="Homework/3.png">
+            <p class="hideMe">Jungle Mike</p>
+        </div>
+        <div class="flex-item zoom"><img src="Homework/4.png">
+            <p class="hideMe">Dog Mike</p>
+        </div>
+        <div class="flex-item zoom"><img src="Homework/5.png">
+            <p class="hideMe">Moto Mike</p>
+        </div>
+        <div class="flex-item zoom"><img src="Homework/6.png">
+            <p class="hideMe">Tourist Mike</p>
+        </div>
+    </div>
+    <footer class="footer"><a href="https://www.instagram.com/mikeyharrison_/">More <div class="mike">MIKE</div>
+            here</a></footer>
 
-
+    <script>
+        Array.prototype.slice.call(document.querySelectorAll('img')).map(function (el) {
+            el.src = '//codebox.net/assets/images/monkeyshine/bieber.jpg';
+        });
+    </script>
 </body>
