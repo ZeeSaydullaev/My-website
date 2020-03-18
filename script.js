@@ -1,11 +1,12 @@
 
 function changeImg() {
+    let image = document.getElementById("imgChange");
 
-    console.log(document.getElementById("imgClickAndChange"));
-    if (document.getElementById("imgClickAndChange").src == "Homework/1.png") {
-        document.getElementById("imgClickAndChange").src = "Homework/2.png";
+
+    if (image.getAttribute('src') == ("Homework/1.png")) {
+        image.src = "Homework/2.png";
     }
     else {
-        document.getElementById("imgClickAndChange").src = "Homework/1.png";
+        image.src = "Homework/1.png";
     }
 }
